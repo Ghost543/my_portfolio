@@ -1,8 +1,14 @@
-ul {
+.nav-ul {
   list-style: none;
   display: flex;
+  justify-content: center;
+  background-color: #00416D;
+  width: auto;
+  height: 50px;
+  color: #f5f1da;
 }
-li {
+.nav-li {
+  margin-top: 15px;
   text-align: justify;
   padding-right: 100px;
 }
@@ -10,6 +16,7 @@ li {
   width: 50%;
   margin: 0 auto;
   padding: 20px;
+  color: #e3dfc8;
 }
 .me img {
   display: block;
@@ -22,17 +29,31 @@ li {
 }
 
 .abt {
-  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
-    0 0 40px rgba(0, 0, 0, 0.1) inset;
-  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
-    0 0 40px rgba(0, 0, 0, 0.1) inset;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   padding-left: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 30px;
+  margin-right: 120px;
+  margin-left: 60px;
+  color: #f5f1da;
+  margin-bottom: 40px;
+  background-color: #00416D;
+  box-shadow: -5px 5px 5px #00416D;
 }
 .abt h3 {
     padding-left: 40px;
+}
+.div-ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  
+}
+.div-li{
+  text-align: justify;
+  padding-right: 100px;
+}
+body{
+  background-color: #f8bd7f;
 }
 
