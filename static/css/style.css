@@ -1,0 +1,38 @@
+ul {
+  list-style: none;
+  display: flex;
+}
+li {
+  text-align: justify;
+  padding-right: 100px;
+}
+.me {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.me img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.me h1 {
+  text-align: center;
+}
+
+.abt {
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+}
+.abt h3 {
+    padding-left: 40px;
+}
+
