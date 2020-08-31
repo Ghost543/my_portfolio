@@ -1,4 +1,4 @@
-.nav-ul {
+#navbar {
   list-style: none;
   display: flex;
   justify-content: center;
@@ -13,23 +13,45 @@
   text-align: justify;
   padding-right: 100px;
 }
-.me {
+a{
+  text-decoration: none;
+  color: #f5f1da;
+}
+#welcome_section {
   width: 50%;
   margin: 0 auto;
   padding: 20px;
   color: #e3dfc8;
 }
-.me img {
+.img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 70%;
 }
-.me h1 {
+#welcome_section h1 {
   text-align: center;
 }
-
-.abt {
+#projects {
+  display: block;
+  background-color: #e3dfc88a;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  margin-right: 500px;
+  margin-left: 200px;
+}
+#projects h1{
+  text-align: left;
+  text-decoration: underline;
+  color: #00416D;
+}
+.project-tile{
+  /* padding-left: 60%; */
+  color: #00416D;
+}
+#profile-link {
   padding-left: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -41,7 +63,7 @@
   background-color: #00416D;
   box-shadow: -5px 5px 5px #00416D;
 }
-.abt h3 {
+#profile-link h3 {
     padding-left: 40px;
 }
 .div-ul{
@@ -57,4 +79,100 @@
 body{
   background-color: #f8bd7f;
 }
-
+.link-dec{
+  text-decoration: underline solid;
+}
+.lin{
+  padding-left: 40px;
+  padding-top: 0px;
+}
+@media (min-width: 1000px) and (min-height: 700px) {
+  #navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #00416D;
+    width: auto;
+    height: 50px;
+    color: #f5f1da;
+    
+  }
+  .nav-li {
+    margin-top: 15px;
+    text-align: justify;
+    padding-right: 100px;
+  }
+  a{
+    text-decoration: none;
+    color: #f5f1da;
+  }
+  #welcome_section {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    color: #e3dfc8;
+  }
+  .img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+  #welcome_section h1 {
+    text-align: center;
+  }
+  #projects {
+    display: block;
+    background-color: #e3dfc88a;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    margin-right: 500px;
+    margin-left: 200px;
+  }
+  #projects h1{
+    text-align: left;
+    text-decoration: underline;
+    color: #00416D;
+  }
+  .project-tile{
+    /* padding-left: 60%; */
+    color: #00416D;
+  }
+  #profile-link {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    margin-right: 120px;
+    margin-left: 60px;
+    color: #f5f1da;
+    margin-bottom: 40px;
+    background-color: #00416D;
+    box-shadow: -5px 5px 5px #00416D;
+  }
+  #profile-link h3 {
+      padding-left: 40px;
+  }
+  .div-ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .div-li{
+    text-align: justify;
+    padding-right: 100px;
+  }
+  body{
+    background-color: #f8bd7f;
+  }
+  .link-dec{
+    text-decoration: underline solid;
+  }
+  .lin{
+    padding-left: 40px;
+    padding-top: 0px;
+  }
+}

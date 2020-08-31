@@ -1,33 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="./static/css/style.css">
 </head>
+
 <body>
     <hr />
-    <ul class="nav-ul">
-        <li class="nav-li"><a>Home</a></li>
-        <li class="nav-li"><a>About me</a> me</li>
-        <li class="nav-li"><a>Projects</li>
+    <ul id="navbar">
+        <li class="nav-li"><a href="#welcome_section">Home</a></li>
+        <li class="nav-li"><a href="#profile-link">About me</a></li>
+        <li class="nav-li"><a href="#projects">Projects</li>
     </ul>
     <hr />
-    <div class="me">
+    <div id="welcome_section">
         <h1>MY PORTIFOLIO</h1>
-        <img src="./static/img/peter.jpeg" alt="My image">
+        <img class="img" src="./static/img/peter.jpeg" alt="My image">
     </div>
-    <div class="abt">
+    <div id="projects">
+        <h1>PROJECTS</h1>
+        <h2>Here are some of the Projects i have done</h2>
+        <ol>
+            <li class="project-tile">My Portfolio</li>
+        </ol>
+    </div>
+    <div id="profile-link">
         <h3>Something small about me </h3>
         <ul class="div-ul">
-            <li class="div-li">I am by name <span>MUWANGUZI PETER</span>  currently doing Telecommunication Engineering at KYU.</li>
-            <li class="div-li">I am passionate about Machine learning and neuralnetworks in particular, i also love quantum physics.</li> 
-            <li class="div-li">I am a greet Web developer specifically backend using python framework flask , software developer good problem solver in C, Java, Nodejs,Python and Matlab/Octave</li>
-            <li class="div-li">I am pretty good with web server administration and configuration using any linux distribution and nginx am also <br> somewhere with deveops like Docker and virtualization and it support on common applications</li>
-            <li class="div-li">I am working on my Google cloud certification with gcp on pluralsight thanks to GADScholarship.</li>
+            <li class="div-li">I am by name <span>MUWANGUZI PETER</span> currently doing Telecommunication Engineering
+                at KYU.</li>
+            <li class="div-li">I am passionate about Machine learning and neuralnetworks in particular, i also love
+                quantum physics.</li>
+            <li class="div-li">I am a greet Web developer specifically backend using python framework flask , software
+                developer good problem solver in C, Java, Nodejs,Python and Matlab/Octave</li>
+            <li class="div-li">I am pretty good with web server administration and configuration using any linux
+                distribution and nginx am also <br> somewhere with deveops like Docker and virtualization and it support
+                on common applications</li>
+            <li class="div-li">I am working on my Google cloud certification with gcp on pluralsight thanks to
+                GADScholarship.</li>
         </ul>
+        <h4>If you would wish to see my profile in details</h4>
+        <p class="lin">visit my <span><a href="https://github.com/Ghost543" class="link-dec">GitHub</a></span> Account </p>
     </div>
-      
+
 </body>
+
 </html>
